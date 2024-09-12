@@ -23,4 +23,20 @@ const Mission2 = (x) => {
 console.log(Mission2(["Mission2", "Levi", "Mosa", "Meni", "Mike"]));
 
 //Mission3
+//A function that accepts a two-dimensional array and turns it into a one-dimensional array
+const Mission3 = (x) => {
+    return x.reduce(function(a, b) {
+        return a.concat(b);
+    });;
+};
+let x = [[0, 0, 1],[4, 4, 5],]
+
+//Displaying a printout to test the function individually for myself
+console.log(Mission3(x));
+
+
+
+
+
+
 
